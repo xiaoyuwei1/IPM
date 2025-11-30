@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <!-- Meta tags for social media banners, these should be filled in appropriatly as they are your "business card" -->
+    <!-- Replace the content tag with appropriate information -->
+    <meta name="description" content="IPM">
+    <meta property="og:title" content="IPM" />
+    <meta property="og:description" content="Toward Better Out-painting: Improving the Image Composition with Initialization Policy Model" />
+    <meta property="og:url" content="URL OF THE WEBSITE" />
+    <!-- Path to banner image, should be in the path listed below. Optimal dimenssions are 1200X630-->
+    <meta property="og:image" content="static/images/icon.png" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+
+
+    <!--  <meta name="twitter:title" content="TWITTER BANNER TITLE META TAG">-->
+    <!--  <meta name="twitter:description" content="TWITTER BANNER DESCRIPTION META TAG">-->
+    <!--  &lt;!&ndash; Path to banner image, should be in the path listed below. Optimal dimenssions are 1200X600&ndash;&gt;-->
+    <!--  <meta name="twitter:image" content="static/images/your_twitter_banner_image.jpg">-->
+    <!--  <meta name="twitter:card" content="summary_large_image">-->
+    <!-- Keywords for your paper to be indexed by-->
+    <meta name="keywords" content="IPM">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+    <title>IPM: Toward Better Out-painting: Improving the Image Composition with Initialization Policy Model</title>
+    <link rel="icon" type="image/x-icon" href="static/images/icon.png">
+    <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro" rel="stylesheet">
+
+    <link rel="stylesheet" href="static/css/bulma.min.css">
+    <link rel="stylesheet" href="static/css/bulma-carousel.min.css">
+    <link rel="stylesheet" href="static/css/bulma-slider.min.css">
+    <link rel="stylesheet" href="static/css/fontawesome.all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+    <link rel="stylesheet" href="static/css/index.css">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://documentcloud.adobe.com/view-sdk/main.js"></script>
+    <script defer src="static/js/fontawesome.all.min.js"></script>
+    <script src="static/js/bulma-carousel.min.js"></script>
+    <script src="static/js/bulma-slider.min.js"></script>
+    <script src="static/js/index.js"></script>
+</head>
+
+<body>
+
+
+    <section class="hero">
+        <div class="hero-body">
+            <div class="container is-max-desktop">
+                <div class="columns is-centered">
+                    <div class="column has-text-centered">
+                        <h1 class="title is-2 publication-title">
+                            IPM: Toward Better Out-painting: Improving the Image Composition with Initialization Policy Model
+                        </h1>
+                        <div class="is-size-5 publication-authors">
+                            <!-- Paper authors -->
+                            <span class="author-block">
+                <a href="" target="_blank">Xuan Han</a>,</span>
+                            <span class="author-block">
+                <a href="" target="_blank">Yihao Zhao</a>,</span>
+                            <span class="author-block">
+                <a href="" target="_blank">Yanhao Ge</a>,</span>
+                            <span class="author-block">
+                <a href="" target="_blank">Mingyu You</a>,</span>
+                        </div>
+
+
+                        <!--                  <div class="is-size-5 publication-authors">-->
+                        <!--                    <span class="author-block">Tongyi Lab</span>-->
+                        <!--                    <span class="eql-cntrb"><small><br><sup>*</sup>Indicates Equal Contribution-->
+                        <!--                        <sup>†</sup> Project leader.</small></span>-->
+                        <!--                  </div>-->
+
+                        <!--                  <div class="column has-text-centered">-->
+                        <!--                    <div class="publication-links">-->
+                        <!--                         &lt;!&ndash; Arxiv PDF link &ndash;&gt;-->
+                        <!--                      <span class="link-block">-->
+                        <!--                        <a href="https://arxiv.org/pdf/<ARXIV PAPER ID>.pdf" target="_blank"-->
+                        <!--                        class="external-link button is-normal is-rounded is-dark">-->
+                        <!--                        <span class="icon">-->
+                        <!--                          <i class="fas fa-file-pdf"></i>-->
+                        <!--                        </span>-->
+                        <!--                        <span>Paper</span>-->
+                        <!--                      </a>-->
+                        <!--                    </span>-->
+                        <!-- ArXiv abstract Link -->
+
+                        <!-- 待补充 -->
+                        <span class="link-block">
+                      <a href="" target="_blank"
+                      class="external-link button is-normal is-rounded is-dark">
+                      <span class="icon">
+                        <i class="ai ai-arxiv"></i>
+                      </span>
+                        <span>arXiv</span>
+                        </a>
+                        </span>
+
+
+                        <!-- Github link -->
+                        <span class="link-block">
+                    <a href="" target="_blank"
+                    class="external-link button is-normal is-rounded is-dark">
+                    <span class="icon">
+                      <i class="fab fa-github"></i>
+                    </span>
+                        <span>Code</span>
+                        </a>
+                        </span>
+
+
+                        <!-- Supplementary model link -->
+                        <span class="link-block">
+                      <a href="" target="_blank"
+                      class="external-link button is-normal is-rounded is-dark">
+                      <span class="icon">
+                        <i class="fas fa-link"></i>
+                      </span>
+                        <span>Model</span>
+                        </a>
+                        </span>
+                        <!-- Supplementary model link -->
+                        <span class="link-block">
+                      <a href="" target="_blank"
+                      class="external-link button is-normal is-rounded is-dark">
+                      <span class="icon">
+                        <i class="fas fa-link"></i>
+                      </span>
+                        <span>Data</span>
+                        </a>
+                        </span>
+                    </div>
+                </div>
+                <div class="button-container">
+                    <button class="button-simple" onclick="scrollToSection('Comparison')">Comparison</button>
+                    <button class="button-simple" onclick="scrollToSection('Variable identities')">Variable identities, scales, and positions</button>
+                    <button class="button-simple" onclick="scrollToSection('Multi generation')">Multi generation</button>
+
+                </div>
+            </div>
+        </div>
+        </div>
+    </section>
+
+    <!-- Paper abstract -->
+    <section class="section hero">
+        <div class="container is-max-desktop">
+            <div class="columns is-centered has-text-centered">
+                <div class="column is-four-fifths">
+                    <h2 class="title is-3">Abstract</h2>
+                    <div class="content has-text-justified">
+                        <p>
+                            With its extensive applications, Foreground Conditioned Out-painting (FCO) has attracted considerable attention in the research ffeld. Through the utilization of textdriven FCO, users are enabled to generate diverse backgrounds for a given foreground
+                            by adjusting the text prompt, which considerably enhances the efffciency in ffelds like ecommerce. Since the foreground is ffxed in FCO, a key concern is whether the generated background can match the foreground well to achieve
+                            a coherent composition. However, most existing methods are lacking in this regard. Artifacts and incorrect interactions are common defects in synthesized images. This issue is linked to the inffuence of the initial noise in
+                            the sampling process. As the initial noise is sampled independently, it’s highly likely that the implied image composition will conffict with the given foreground. In this paper, a novel Initialization Policy Model (IPM) is
+                            proposed to address this problem. Its function is to replace the early denoising steps and directly predict the intermediate state that is conducive to the reasonable image composition. Since the IPM is designed to take only
+                            the foreground image and the text prompt as inputs, it isolates the impact of the initial noise. The subsequently proposed training paradigm that combines inversion-derived label supervision and diffusion reward supervision
+                            further ensures the efffcient training of the IPM. The evaluation is conducted using the task-speciffc OpenImage-FCO dataset developed by us. The results verify that the introduction of the IPM can signiffcantly improve the
+                            composition of the synthesized images and achieve advanced performance in the FCO task.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End paper abstract -->
+
+
+
+    <!-- Method -->
+    <section class="hero teaser">
+        <div class="container is-max-desktop">
+            <div class="hero-body">
+                <img src="static/images/method++.png" alt="method" />
+            </div>
+        </div>
+    </section>
+    <!-- End Method -->
+
+
+
+
+
+
+
+    <!--NEW SECTION-->
+    <section id="Comparison" class="hero is-small">
+        <div class="hero-body">
+            <div class="container">
+                <h2 class="title is-3">Comparison</h2>
+                <div>
+                    <div style="text-align: center;">
+                        <img src="static/images/Comparison.png" alt="Comparison" style="max-width:100%; height:auto; display:inline-block;" />
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End Local Editing -->
+
+
+    <!--NEW SECTION-->
+    <section id="Variable identities" class="hero is-small">
+        <div class="hero-body">
+            <div class="container">
+                <h2 class="title is-3">Variable identities, scales, and positions</h2>
+                <div>
+
+                    <div style="text-align: center;">
+                        <img src="static/images/different_foreground_objects.png" alt="Different foreground objects" style="max-width:100%; height:auto; display:inline-block;" />
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End Local Editing -->
+
+    <!--NEW SECTION-->
+    <section id="Multi generation" class="hero is-small">
+        <div class="hero-body">
+            <div class="container">
+                <h2 class="title is-3">Multi generation</h2>
+                <div>
+                    <div class="item">
+                        <!-- Your image here -->
+                        <div style="display: flex; flex-wrap: wrap; gap: 20px;">
+
+                            <div style="flex: 1 1 calc(50% - 20px);">
+                                <div style="display: flex; flex-direction: column;">
+                                    <h4 style="font-size: 20px;" class="subtitle has-text-centered">The generation results under different text prompts</h4>
+                                    <div style="display: flex; height: 200px; justify-content: center; border: 1px solid #ccc;">
+                                        <img src="static/images/a_multi_generation_1.png" alt="Multi generation" style="max-width:100%; height:auto; display:inline-block;" />
+                                    </div>
+                                    <div style="display: flex; height: 200px; justify-content: center; border: 1px solid #ccc;">
+                                        <img src="static/images/a_multi_generation_2.png" alt="Multi generation" style="max-width:100%; height:auto; display:inline-block;" />
+                                    </div>
+                                    <div style="display: flex; height: 200px; justify-content: center; border: 1px solid #ccc;">
+                                        <img src="static/images/a_multi_generation_3.png" alt="Multi generation" style="max-width:100%; height:auto; display:inline-block;" />
+                                    </div>
+                                    <div style="display: flex; height: 200px; justify-content: center; border: 1px solid #ccc;">
+                                        <img src="static/images/a_multi_generation_4.png" alt="Multi generation" style="max-width:100%; height:auto; display:inline-block;" />
+                                    </div>
+                                    <div style="display: flex; height: 200px; justify-content: center; border: 1px solid #ccc;">
+                                        <img src="static/images/a_multi_generation_5.png" alt="Multi generation" style="max-width:100%; height:auto; display:inline-block;" />
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div style="flex: 1 1 calc(50% - 20px);">
+                                <div style="display: flex; flex-direction: column;">
+                                    <h4 style="font-size: 20px;" class="subtitle has-text-centered">The multi generation results in same case</h4>
+                                    <div style="display: flex; height: 200px; justify-content: center; border: 1px solid #ccc;">
+                                        <img src="static/images/b_multi_generation_1.png" alt="Multi generation" style="max-width:100%; height:auto; display:inline-block;" />
+                                    </div>
+                                    <div style="display: flex; height: 200px; justify-content: center; border: 1px solid #ccc;">
+                                        <img src="static/images/b_multi_generation_2.png" alt="Multi generation" style="max-width:100%; height:auto; display:inline-block;" />
+                                    </div>
+                                    <div style="display: flex; height: 200px; justify-content: center; border: 1px solid #ccc;">
+                                        <img src="static/images/b_multi_generation_3.png" alt="Multi generation" style="max-width:100%; height:auto; display:inline-block;" />
+                                    </div>
+                                    <div style="display: flex; height: 200px; justify-content: center; border: 1px solid #ccc;">
+                                        <img src="static/images/b_multi_generation_4.png" alt="Multi generation" style="max-width:100%; height:auto; display:inline-block;" />
+                                    </div>
+                                    <div style="display: flex; height: 200px; justify-content: center; border: 1px solid #ccc;">
+                                        <img src="static/images/b_multi_generation_5.png" alt="Multi generation" style="max-width:100%; height:auto; display:inline-block;" />
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+    </section>
+    <!-- End Local Editing -->
+
+
+    <!--BibTex citation -->
+    <section class="section" id="BibTeX">
+        <div class="container is-max-desktop content">
+            <h2 class="title">BibTeX</h2>
+            <pre><code>
+        @inproceedings{han2025toward,
+        title={Toward Better Out-painting: Improving the Image Composition with Initialization Policy Model},
+        author={Han, Xuan and Zhao, Yihao and Ge, Yanhao and You, Mingyu},
+        booktitle={Proceedings of the IEEE/CVF International Conference on Computer Vision},
+        pages={16938--16947},
+        year={2025}
+        }
+      </code></pre>
+        </div>
+    </section>
+    <!--End BibTex citation -->
+
+
+    <footer class="footer">
+        <div class="container">
+            <div class="columns is-centered">
+                <div class="column is-8">
+                    <div class="content">
+
+                        <p>
+                            This page was built using the <a href="https://github.com/eliahuhorwitz/Academic-project-page-template" target="_blank">Academic Project Page Template</a> which was adopted from the <a href="https://nerfies.github.io" target="_blank">Nerfies</a> project
+                            page. You are free to borrow the of this website, we just ask that you link back to this page in the footer. <br> This website is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/" target="_blank">Creative
+            Commons Attribution-ShareAlike 4.0 International License</a>.
+                        </p>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Statcounter tracking code -->
+
+    <!-- You can add a tracker to track page visits by creating an account at statcounter.com -->
+
+    <!-- End of Statcounter Code -->
+    <script>
+        function scrollToSection(sectionId) {
+            const section = document.getElementById(sectionId);
+            section.scrollIntoView();
+        }
+    </script>
+
+</body>
+
+</html>
